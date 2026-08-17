@@ -47,4 +47,7 @@ app.*.map.json
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
 
+# Firebase config — contains API keys, never commit. Regenerate locally with
+# `flutterfire configure`, or copy lib/firebase_options.example.dart.
+lib/firebase_options.dart
 
